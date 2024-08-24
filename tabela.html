@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Veículos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <p>Lista de veículos</p>
+        <button onclick = "mudaTela()" class="button-submit">Adicionar Veículos</button>
+    </nav>
+    
+    <form class="container-table">
+        
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome proprietário</th>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Tipo Veículo</th>
+                    <th scope="col">Fabricante</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Imagem Veículo</th>
+                    <th scope="col">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="dados-tabela">
+
+            </tbody>
+        </table>
+ 
+    </form>
+
+    <footer class="footer-app">
+        <p>Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts/tabela.js"></script>
+</body>
+
+</html>
